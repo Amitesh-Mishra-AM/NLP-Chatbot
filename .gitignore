@@ -1,0 +1,42 @@
+# Byte-compiled and cached Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+env/
+venv/
+
+# Model files and large datasets
+model/
+*.bin
+*.pt
+
+# Logs and temporary files
+*.log
+logs/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit configuration and cache
+.streamlit/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Environment variables or sensitive credentials
+.env
