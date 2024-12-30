@@ -68,8 +68,8 @@ trainer = Trainer(
 
 # Train and save the model
 trainer.train()
-model.save_pretrained("./model")
-tokenizer.save_pretrained("./model")
+model.save_pretrained("./Model")
+tokenizer.save_pretrained("./Model")
 
 # Save mappings
 with open("label_to_tag.json", "w") as f:

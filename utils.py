@@ -3,8 +3,8 @@ from transformers import BertTokenizer, BertForSequenceClassification
 import json
 
 # Load model and tokenizer
-model = BertForSequenceClassification.from_pretrained("./model")
-tokenizer = BertTokenizer.from_pretrained("./model")
+model = BertForSequenceClassification.from_pretrained("./Model")
+tokenizer = BertTokenizer.from_pretrained("./Model")
 
 # Load mappings
 with open("label_to_tag.json") as f:
