@@ -9,10 +9,10 @@ env/
 venv/
 
 # Model files and large datasets
-model/
+# model/
 *.bin
 *.pt
-
+*.json
 # Logs and temporary files
 *.log
 logs/
