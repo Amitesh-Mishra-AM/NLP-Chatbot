@@ -17,6 +17,8 @@ venv/
 *.log
 logs/
 
+results/
+
 # Python egg files
 *.egg
 *.egg-info/
